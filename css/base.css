@@ -1,0 +1,196 @@
+html {
+  font-size: 6.25%;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.hp_xs {
+  font-size: 12rem !important;
+}
+.hp_sm {
+  font-size: 14rem !important;
+}
+
+.hp_weight7 {
+  font-weight: 700 !important;
+}
+
+.hp_bgc__navy {
+  background-color: #022859 !important;
+}
+.hp_bgc__grey {
+  background-color: #818c86 !important;
+}
+.hp_bgc__beige {
+  background-color: #bf9d73 !important;
+}
+.hp_bgc__orange {
+  background-color: #a66b49 !important;
+}
+.hp_bgc__wine {
+  background-color: #730202 !important;
+}
+.hp_bgc__GrayScale01 {
+  background-color: #F2F2F2 !important;
+}
+.hp_bgc__GrayScale03 {
+  background-color: #BFBFBF !important;
+}
+.hp_bgc__GrayScale05 {
+  background-color: #737373 !important;
+}
+.hp_bgc__GrayScale07 {
+  background-color: #404040 !important;
+}
+.hp_bgc__GrayScale09 {
+  background-color: #0D0D0D !important;
+}
+
+.hp_textHidden {
+  text-indent: 100% !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+}
+
+.fx_align__start {
+  align-items: flex-start !important;
+}
+.fx_basis__70p {
+  flex-basis: 70% !important;
+}
+.fx_basis__60p {
+  flex-basis: 60% !important;
+}
+
+.el_roundedBtn {
+  display: inline-block;
+  width: fit-content;
+  max-width: 100%;
+  padding: 0.5ch 1ch;
+  margin-right: 0.5ch;
+  font-size: 16rem;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  color: var(--fgc);
+  background-color: var(--bgc);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.25s; 
+}
+
+.el_iconBtn {
+  display: inline-block;
+  width: fit-content;
+  max-width: 100%;
+  padding: 0.5ch 1ch;
+  margin-right: 0.5ch;
+  line-height: 1;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  color: var(--fgc);
+  background-color: transparent;
+  transition: 0.25s;
+}
+.el_iconBtn:last-child {
+  margin-right: 0; 
+}
+.el_iconBtn::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+.el_iconBtn::after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+.el_roundedIconBtn {
+  display: inline-block;
+  width: fit-content;
+  max-width: 100%;
+  padding: 1ch;
+  margin-right: 0.5ch;
+  position: relative;
+  line-height: 1;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  border-radius: 50%;
+  color: unset;
+  background-color: transparent;
+  transition: 0.25s;
+}
+.el_roundedIconBtn:last-child {
+  margin-right: 0; 
+}
+.el_roundedIconBtn::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.el_roundedIconBtn::after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+/* 다운로드 */
+.hp_download::before {
+  content: '\f019' !important;
+}
+/* 바로가기 */
+.hp_link::after {
+  content: '\f35d' !important;
+}
+/* 검색 */
+.hp_search::after {
+  content: '\f002' !important;
+}
+
+/* 닫기 */
+.hp_close::before {
+  content: '\f00d' !important;
+}
+/* 플러스 */
+.hp_plus::before {
+  content: '\f067' !important;
+}
+/* 물음표 */
+.hp_question::before {
+  content: '\f128' !important;
+}
+/* 스크롤탑 */
+.hp_arrowTop::before {
+  content: '\f062' !important;
+}
+/* 플레이 */
+.hp_play::before {
+  content: '\f04b' !important;
+}
+
+/* 뒤로 가기 */
+.hp_chevLeft::before {
+  content: '\f053' !important;
+}
+/* 앞으로 가기 */
+.hp_chevRight::before {
+  content: '\f054' !important;
+} 
+/* 재생 */
+.hp_play::before {
+  content: '\f04b' !important;
+}
+/* 일시정지 */
+.hp_pause::before {
+  content: '\f04c' !important;
+}
